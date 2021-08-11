@@ -1,0 +1,26 @@
+/* This is with help of Addition and Subtration */
+#include<stdio.h>
+void main()
+{
+int a = 10,b = 20;
+printf("Before Swapping a=%d b=%d\n",a,b);
+a = a + b;
+b = a - b;
+a = a - b;
+printf("After Swapping a=%d b=%d",a,b);
+return 0;
+}
+
+
+/* This is with help of Multiplication and Division */
+#include<stdio.h>
+void main()
+{
+int a = 10,b = 20;
+printf("Before Swapping a=%d b=%d\n",a,b);
+a = a * b;
+b = a / b;
+a = a / b;
+printf("After Swapping a=%d b=%d",a,b);
+return 0;
+}
